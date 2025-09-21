@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL CONTACT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+         <!-- Logo Kiri -->
+  <div class="logo-left">
+    <img src="logo-alamtri.png" alt="Logo Institusi" class="left-logo">
+  </div>
+  
+  <!-- Logo Kanan (yang sudah ada) -->
+  <div class="logo-right">
+    <img src="Picture1.png" alt="Logo Perusahaan" class="right-logo">
+  </div>
+        <h1 class="form-title">PERSONAL CONTACT</h1>
+        
+        <form id="employeeForm">
+            <!-- Tanggal -->
+            <div class="form-group">
+                <label for="tanggal">Tanggal:</label>
+                <input type="date" id="tanggal" name="tanggal" required>
+            </div>
+            
+            <!-- Lokasi -->
+            <div class="form-group">
+                <label for="lokasi">Lokasi:</label>
+                <input type="text" id="lokasi" name="lokasi" required>
+            </div>
+            
+            <!-- Data Pribadi -->
+            <fieldset>
+                <legend>Data Pribadi</legend>
+                
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap:</label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="nrp">NRP:</label>
+                    <input type="text" id="nrp" name="nrp" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="jabatan">Jabatan:</label>
+                    <input type="text" id="jabatan" name="jabatan" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="masa_kerja">Masa Kerja:</label>
+                    <input type="text" id="masa_kerja" name="masa_kerja" placeholder="Contoh: 2 tahun 3 bulan" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="alamat">Alamat:</label>
+                    <textarea id="alamat" name="alamat" rows="3" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="status">Status:</label>
+                    <input type="text" id="status" name="status" required>
+                </div>
+            </fieldset>
+            
+            <!-- Topik Pembahasan -->
+            <fieldset>
+                <legend>Topik Pembahasan</legend>
+                
+                <div class="form-group">
+                    <label for="topik_pribadi">a. Topik Pribadi:</label>
+                    <textarea id="topik_pribadi" name="topik_pribadi" rows="3"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="topik_keluarga">b. Topik Keluarga:</label>
+                    <textarea id="topik_keluarga" name="topik_keluarga" rows="3"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="topik_pekerjaan">c. Topik Pekerjaan:</label>
+                    <textarea id="topik_pekerjaan" name="topik_pekerjaan" rows="3"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="kesimpulan">Kesimpulan/Nasehat:</label>
+                    <textarea id="kesimpulan" name="kesimpulan" rows="3" required></textarea>
+                </div>
+            </fieldset>
+            
+            <!-- Atasan -->
+            <div class="form-group">
+                <label for="atasan">Atasan:</label>
+                <select id="atasan" name="atasan" required>
+                    <option value="">Pilih Atasan</option>
+                    <option value="ABDUL RAHMAT SIDIK">ABDUL RAHMAT SIDIK</option>
+                    <option value="ANANTO NINGGAR SEJATI">ANANTO NINGGAR SEJATI</option>
+                    <option value="DWI HARIONO">DWI HARIONO</option>
+                    <option value="HADI SUTARTO">HADI SUTARTO</option>
+                    <option value="HERRY KISWANTO KANONENG">HERRY KISWANTO KANONENG</option>
+                    <option value="IRI SAEFUDDIN">IRI SAEFUDDIN</option>
+                    <option value="DARTO">DARTO</option>
+                    <option value="KHAIRULLAH MILKAN AZMI">KHAIRULLAH MILKAN AZMI</option>
+                    <option value="KHUMAIDI NOVAL">KHUMAIDI NOVAL</option>
+                    <option value="ANTON SERSANDI WAHYU">ANTON SERSANDI WAHYU</option>
+                    <option value="MUHAMMAD SYAUKANI">MUHAMMAD SYAUKANI</option>
+                    <option value="MUJIANSYAH">MUJIANSYAH</option>
+                    <option value="IRWANUDDIN">IRWANUDDIN</option>
+                    <option value="WAHYUDI">WAHYUDI</option>
+                    <option value="NASRULLAH">NASRULLAH</option>
+                    <option value="RAHMAT">RAHMAT</option>
+                    <option value="RYAN PAMUNGKAS">RYAN PAMUNGKAS</option>
+                    <option value="SINTAR">SINTAR</option>
+                    <option value="SOLIHIN ROSADI">SOLIHIN ROSADI</option>
+                    <option value="SUNARWOTO">SUNARWOTO</option>
+                    <option value="SYAIFUL DAFIT ADI SAPUTRA">SYAIFUL DAFIT ADI SAPUTRA</option>
+                    <option value="TEGUH ARIFIATNA">TEGUH ARIFIATNA</option>
+                    <option value="WAHYU UTOMO">WAHYU UTOMO</option>
+                    <option value="IRWAN">IRWAN</option>
+                    <option value="ABDUL KODIR">ABDUL KODIR</option>
+                    <option value="RUDI MARDIANTO">RUDI MARDIANTO</option>
+                    <option value="MOHAMMAD KHOIRUL UMAM">MOHAMMAD KHOIRUL UMAM</option>
+                    <option value="BUDIMAN">BUDIMAN</option>
+                    <option value="MUHAMMAD ABDIANNOOR">MUHAMMAD ABDIANNOOR</option>
+                    <option value="ASEP CAHYADI">ASEP CAHYADI</option>
+                    <option value="ADLIN ZAID  ISMAIL">ADLIN ZAID  ISMAIL</option>
+                    <option value="NARYONO">NARYONO</option>
+                    <option value="INDRA HARAPAN">INDRA HARAPAN</option>
+                    <option value="GATOT SETIAWAN">GATOT SETIAWAN</option>
+                    <option value="SLAMET HERIANTO">SLAMET HERIANTO</option>
+                    <option value="YULIAN MUSTOFA">YULIAN MUSTOFA</option>
+                    <!-- Tambahkan lebih banyak sesuai kebutuhan -->
+                </select>
+            </div>
+            
+            <!-- Tombol Validasi -->
+            <div class="form-group">
+                <button type="button" id="validateForm">Validasi</button>
+            </div>
+            
+            <!-- Tombol Submit -->
+            <div class="form-group">
+                <button type="submit">Kirim</button>
+                <button type="button" id="saveDraft">Simpan Draft</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+    <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Mapping nama atasan ke email
+    const emailAtasan = {
+      'ABDUL RAHMAT SIDIK': 'abdul.rahmat.sidik@saptaindra.co.id',
+      'ANANTO NINGGAR SEJATI': 'ananto.ninggar.sejati@saptaindra.co.id',
+      'DWI HARIONO': 'dwi.hariono@saptaindra.co.id',
+      'HADI SUTARTO': 'hadi.sutarto@saptaindra.co.id',
+      'HERRY KISWANTO KANONENG': 'herry.kiswanto.kanoneng@saptaindra.co.id',
+      'IRI SAEFUDDIN': 'iri.saefuddin@saptaindra.co.id',
+      'DARTO': 'darto@saptaindra.co.id',
+      'KHAIRULLAH MILKAN AZMI': 'khairullah.milkan.azmi@saptaindra.co.id',
+      'KHUMAIDI NOVAL': 'khumaidi.noval@saptaindra.co.id',
+      'ANTON SERSANDI WAHYU': 'anton.sersandi.wahyu@saptaindra.co.id',
+      'MUHAMMAD SYAUKANI': 'muhammad.syaukani@saptaindra.co.id',
+      'MUJIANSYAH': 'mujiansyah@saptaindra.co.id',
+      'IRWANUDDIN': 'irwanuddin@saptaindra.co.id',
+      'WAHYUDI': 'wahyudi@saptaindra.co.id',
+      'NASRULLAH': 'nasrullah@saptaindra.co.id',
+      'RAHMAT': 'rahmat@saptaindra.co.id',
+      'RYAN PAMUNGKAS': 'ryan.pamungkas@saptaindra.co.id',
+      'SINTAR': 'sintar@saptaindra.co.id',
+      'SOLIHIN ROSADI': 'solihin.rosadi@saptaindra.co.id',
+      'SUNARWOTO': 'sunarwoto@saptaindra.co.id',
+      'SYAIFUL DAFIT ADI SAPUTRA': 'syaiful.dafit.adi.saputra@saptaindra.co.id',
+      'TEGUH ARIFIATNA': 'teguh.arifiatna@saptaindra.co.id',
+      'WAHYU UTOMO': 'wahyu.utomo@saptaindra.co.id',
+      'IRWAN': 'irwan@saptaindra.co.id',
+      'ABDUL KODIR': 'abdul.kodir@saptaindra.co.id',
+      'RUDI MARDIANTO': 'rudi.mardianto@saptaindra.co.id',
+      'MOHAMMAD KHOIRUL UMAM': 'mohammad.khoirul.umam@saptaindra.co.id',
+      'BUDIMAN': 'budiman@saptaindra.co.id',
+      'MUHAMMAD ABDIANNOOR': 'muhammad.abdiannoor@saptaindra.co.id',
+      'ASEP CAHYADI': 'asep.cahyadi@saptaindra.co.id',
+      'ADLIN ZAID  ISMAIL': 'adlin.zaid.ismail@saptaindra.co.id',
+      'NARYONO': 'naryono@saptaindra.co.id',
+      'INDRA HARAPAN': 'indra.harapan@saptaindra.co.id',
+      'GATOT SETIAWAN': 'gatot.setiawan@saptaindra.co.id',
+      'SLAMET HERIANTO': 'slamet.herianto@saptaindra.co.id',
+      'YULIAN MUSTOFA': 'yulian.mustofa@saptaindra.co.id'
+    };
+
+    // Variable untuk menyimpan status validasi email
+    let validasiEmailBerhasil = false;
+    let emailKaryawanValidasi = '';
+    
+    // Fungsi untuk membuat format email validasi
+    function buatFormatEmail(dataForm, atasanTerpilih) {
+      const emailAtasanTerpilih = emailAtasan[atasanTerpilih] || 'atasan@saptaindra.co.id';
+      const tanggalSekarang = new Date().toLocaleDateString('id-ID', {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+      });
+      const jamSekarang = new Date().toLocaleTimeString('id-ID');
+      
+      const emailSubject = "Personal Contact - Konfirmasi Data Terkirim";
+      
+      const emailBody = `
+Yth. ${dataForm.get('nama')}
+NRP: ${dataForm.get('nrp')}
+
+Dengan hormat,
+
+Terima kasih telah mengisi form Personal Contact. Dengan ini anda telah approve dan selanjutnya menunggu approval dari atasan.
+
+=== RINGKASAN DATA YANG TELAH DIKIRIM ===
+
+📅 Tanggal Pengisian: ${dataForm.get('tanggal')}
+📍 Lokasi: ${dataForm.get('lokasi')}
+
+👤 DATA PRIBADI ANDA:
+   • Nama Lengkap: ${dataForm.get('nama')}
+   • NRP: ${dataForm.get('nrp')}
+   • Jabatan: ${dataForm.get('jabatan')}
+   • Masa Kerja: ${dataForm.get('masa_kerja')}
+   • Alamat: ${dataForm.get('alamat')}
+   • Status: ${dataForm.get('status')}
+
+💬 TOPIK PEMBAHASAN YANG DISAMPAIKAN:
+   • Topik Pribadi: 
+     ${dataForm.get('topik_pribadi') || 'Tidak ada'}
+   
+   • Topik Keluarga: 
+     ${dataForm.get('topik_keluarga') || 'Tidak ada'}
+   
+   • Topik Pekerjaan: 
+     ${dataForm.get('topik_pekerjaan') || 'Tidak ada'}
+
+📝 KESIMPULAN/NASEHAT:
+${dataForm.get('kesimpulan')}
+
+👔 ATASAN YANG AKAN MEMVALIDASI: 
+   • Nama: ${atasanTerpilih}
+   • Email: ${emailAtasanTerpilih}
+
+=== STATUS VALIDASI ===
+
+✅ Data Anda telah berhasil diterima sistem
+⏳ Sedang menunggu validasi dari ${atasanTerpilih}
+📧 Email ini dikirim atas nama ${atasanTerpilih} sebagai konfirmasi
+
+=== INFORMASI SELANJUTNYA ===
+
+• Data Anda akan divalidasi oleh ${atasanTerpilih}
+• Anda akan dihubungi lebih lanjut jika diperlukan tindak lanjut
+• Jika ada pertanyaan, silakan hubungi atasan atau HR
+• Simpan email ini sebagai bukti pengiriman data
+
+=== INFORMASI SISTEM ===
+
+📧 Tanggal & Waktu Pengiriman: ${tanggalSekarang} pukul ${jamSekarang}
+📧 Email Penerima: ${emailKaryawanValidasi}
+📧 Email Atasan: ${emailAtasanTerpilih}
+📧 Sistem: Personal Contact PT. Sapta Indra Sejati
+
+Terima kasih atas partisipasi Anda dalam program Personal Contact.
+
+Salam,
+${atasanTerpilih}
+${emailAtasanTerpilih}
+PT. Sapta Indra Sejati
+
+---
+CATATAN: 
+• Email ini adalah konfirmasi otomatis dari sistem Personal Contact
+• Jika ada kesalahan data, silakan hubungi atasan atau HR
+• Mohon simpan email ini untuk keperluan dokumentasi
+      `;
+      
+      return {
+        subject: emailSubject,
+        body: emailBody,
+        to: emailKaryawanValidasi
+      };
+    }
+    
+    // Fungsi validasi form
+    function validasiForm() {
+      const formulir = document.getElementById('employeeForm');
+      const fieldsYangWajib = [
+        { id: 'tanggal', nama: 'Tanggal' },
+        { id: 'lokasi', nama: 'Lokasi' },
+        { id: 'nama', nama: 'Nama Lengkap' },
+        { id: 'nrp', nama: 'NRP' },
+        { id: 'jabatan', nama: 'Jabatan' },
+        { id: 'masa_kerja', nama: 'Masa Kerja' },
+        { id: 'alamat', nama: 'Alamat' },
+        { id: 'status', nama: 'Status' },
+        { id: 'kesimpulan', nama: 'Kesimpulan/Nasehat' },
+        { id: 'atasan', nama: 'Atasan' }
+      ];
+      
+      let pesanError = [];
+      let semuaValid = true;
+      
+      // Cek field yang wajib diisi
+      fieldsYangWajib.forEach(field => {
+        const element = document.getElementById(field.id);
+        if (!element.value.trim()) {
+          pesanError.push(`- ${field.nama} harus diisi`);
+          element.style.borderColor = '#e74c3c';
+          semuaValid = false;
+        } else {
+          element.style.borderColor = '#ddd';
+        }
+      });
+      
+      // Tampilkan hasil validasi
+      if (semuaValid) {
+        // Dapatkan nama atasan yang dipilih
+        const atasanTerpilih = document.getElementById('atasan').value;
+        const emailAtasanTerpilih = emailAtasan[atasanTerpilih] || 'atasan@saptaindra.co.id';
+        
+        // Tampilkan dialog input email karyawan
+        const emailKaryawan = prompt(
+          `✅ Data sudah lengkap!\n\n` +
+          `Ini adalah bentuk validasi menggunakan email. Sistem akan mengirim email validasi kepada Anda sebagai karyawan yang mengisi data ini.\n\n` +
+          `Email akan dikirim atas nama ${atasanTerpilih} (${emailAtasanTerpilih}) sebagai atasan yang memvalidasi.\n\n` +
+          `Masukkan alamat email Anda untuk menerima konfirmasi validasi:\n` +
+          `(Jika Batal maka data tidak akan bisa dikirim)`
+        );
+        
+        // Cek apakah email diinput dan tidak dibatalkan
+        if (emailKaryawan === null) {
+          // Jika dibatalkan
+          validasiEmailBerhasil = false;
+          alert('❌ Validasi dibatalkan!\n\nData tidak dapat dikirim. Silakan lakukan validasi ulang jika ingin mengirim data.');
+          return false;
+        }
+        
+        // Validasi format email
+        if (!emailKaryawan || !emailKaryawan.trim()) {
+          alert('❌ Email tidak boleh kosong!\n\nSilakan masukkan email yang valid.');
+          return false;
+        }
+        
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(emailKaryawan.trim())) {
+          alert('❌ Format email tidak valid!\n\nContoh format yang benar: nama@domain.com\n\nSilakan masukkan email yang valid.');
+          return false;
+        }
+        
+        // Konfirmasi email yang dimasukkan
+        const konfirmasiEmail = confirm(
+          `📧 Konfirmasi Email Validasi\n\n` +
+          `Email karyawan: ${emailKaryawan.trim()}\n` +
+          `Email pengirim: ${emailAtasanTerpilih} (${atasanTerpilih})\n\n` +
+          `Apakah data email sudah benar?\n\n` +
+          `Klik OK untuk melanjutkan atau Cancel untuk mengubah email.`
+        );
+        
+        if (konfirmasiEmail) {
+          // Jika setuju, set status validasi email berhasil dan simpan email karyawan
+          validasiEmailBerhasil = true;
+          emailKaryawanValidasi = emailKaryawan.trim();
+          
+          // Highlight semua field dengan warna hijau
+          fieldsYangWajib.forEach(field => {
+            const element = document.getElementById(field.id);
+            element.style.borderColor = '#27ae60';
+          });
+          
+          // Tampilkan pesan sukses dengan email yang akan menerima validasi
+          alert(`✅ Validasi email berhasil!\n\nEmail validasi akan dikirim ke: ${emailKaryawanValidasi}\n\nData Anda sudah siap untuk dikirim. Silakan klik tombol "Kirim" untuk mengirim data.`);
+          
+          // Kembalikan warna border normal setelah 5 detik
+          setTimeout(() => {
+            fieldsYangWajib.forEach(field => {
+              const element = document.getElementById(field.id);
+              element.style.borderColor = '#ddd';
+            });
+          }, 5000);
+        } else {
+          // Jika batal, set status validasi email gagal
+          validasiEmailBerhasil = false;
+          alert('❌ Validasi dibatalkan!\n\nData tidak dapat dikirim. Silakan lakukan validasi ulang jika ingin mengirim data.');
+        }
+      } else {
+        alert('❌ Validasi gagal!\n\nField berikut harus diisi:\n\n' + pesanError.join('\n'));
+      }
+      
+      return semuaValid;
+    }
+    
+    // Event listener untuk tombol validasi
+    const validateButton = document.getElementById('validateForm');
+    if (validateButton) {
+      validateButton.addEventListener('click', validasiForm);
+    }
+    
+    // Pengiriman formulir
+    const formulir = document.getElementById('employeeForm');
+    // PENTING: Ganti URL ini dengan Web App URL dari Google Apps Script Anda
+    const urlScript = 'https://script.google.com/macros/s/AKfycbzQrhSYTNE4C_xD7gJkS1Ke_8EjsKVE-64RtbU4H16vHd7uf5datA6cbrEJjdW-CdiF_Q/exec';
+    
+    console.log('Using Google Apps Script URL:', urlScript);
+
+    formulir.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      // Cek apakah validasi email sudah berhasil
+      if (!validasiEmailBerhasil) {
+        alert('❌ Data belum divalidasi!\n\nSilakan klik tombol "Validasi" terlebih dahulu dan setujui validasi email sebelum mengirim data.');
+        return;
+      }
+
+      try {
+        // Siapkan data formulir
+        const dataFormulir = new FormData(formulir);
+        
+        // Dapatkan nama atasan yang dipilih
+        const atasanTerpilih = document.getElementById('atasan').value;
+        
+        // Buat format email validasi
+        const emailTemplate = buatFormatEmail(dataFormulir, atasanTerpilih);
+        
+        // Tambahkan data email ke form data
+        dataFormulir.append('emailSubject', emailTemplate.subject);
+        dataFormulir.append('emailBody', emailTemplate.body);
+        dataFormulir.append('emailTo', emailTemplate.to);
+        dataFormulir.append('atasanName', atasanTerpilih);
+        dataFormulir.append('atasanEmail', emailAtasan[atasanTerpilih] || 'atasan@saptaindra.co.id');
+        dataFormulir.append('karyawanEmail', emailKaryawanValidasi);
+        
+        // Debug: Log data yang akan dikirim
+        console.log('Data yang akan dikirim:');
+        console.log('Email Subject:', emailTemplate.subject);
+        console.log('Email To:', emailTemplate.to);
+        console.log('Email Karyawan:', emailKaryawanValidasi);
+        console.log('Email Atasan:', emailAtasan[atasanTerpilih] || 'atasan@saptaindra.co.id');
+        console.log('Nama Atasan:', atasanTerpilih);
+
+        // Kirim ke Google Apps Script
+        const response = await fetch(urlScript, {
+          method: 'POST',
+          body: dataFormulir
+        });
+
+        if (!response.ok) {
+          throw new Error(`Error HTTP! status: ${response.status}`);
+        }
+
+        const hasil = await response.json();
+        
+        // Debug: Log response dari server
+        console.log('Response dari server:', hasil);
+
+        if (hasil.status === "success") {
+          let successMessage = "✅ Data berhasil dikirim!\n\n";
+          successMessage += "📧 Email konfirmasi telah dikirim ke: " + emailKaryawanValidasi + "\n\n";
+          successMessage += "📝 Data Anda sedang menunggu validasi dari " + atasanTerpilih + "\n\n";
+          
+          // Tambahkan info debugging untuk user
+          if (hasil.emailSent) {
+            successMessage += "✅ Email berhasil dikirim oleh sistem\n";
+          } else {
+            successMessage += "⚠️ Data tersimpan tapi email mungkin belum terkirim\n";
+            successMessage += "Silakan cek folder spam atau hubungi admin jika tidak menerima email\n";
+          }
+          
+          alert(successMessage);
+          formulir.reset();
+          // Reset status validasi email
+          validasiEmailBerhasil = false;
+          emailKaryawanValidasi = '';
+        } else {
+          throw new Error(hasil.error || "Gagal menyimpan data");
+        }
+      } catch (error) {
+        console.error('Error pengiriman:', error);
+        alert(`Terjadi error: ${error.message}`);
+      }
+    });
+  });
+</script>
+</body>
+</html>
