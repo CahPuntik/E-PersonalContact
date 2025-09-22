@@ -88,7 +88,7 @@ button:hover {
     background-color: #e67e22;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .container {
         padding: 10px;
     }
@@ -139,4 +139,5 @@ button:hover {
   text-align: center;
   padding-top: 30px; /* Memberi ruang untuk logo */
   margin-bottom: 20px;
+    font-size: small;
 }
