@@ -97,6 +97,40 @@ button:hover {
         width: 100%;
         margin-bottom: 10px;
     }
+    
+    /* Perkecil judul untuk tampilan mobile */
+    .form-title {
+        font-size: 18px !important;
+        padding-top: 20px;
+        margin-bottom: 15px;
+    }
+    
+    /* Perkecil logo untuk mobile */
+    .logo-left, .logo-right {
+        width: 60px;
+    }
+}
+
+/* Media query khusus untuk HP yang sangat kecil */
+@media (max-width: 480px) {
+    .form-title {
+        font-size: 16px !important;
+        padding-top: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .logo-left, .logo-right {
+        width: 50px;
+        top: 10px;
+    }
+    
+    .logo-left {
+        left: 10px;
+    }
+    
+    .logo-right {
+        right: 10px;
+    }
 }
 .header {
   position: relative;
@@ -139,5 +173,7 @@ button:hover {
   text-align: center;
   padding-top: 30px; /* Memberi ruang untuk logo */
   margin-bottom: 20px;
-    font-size: small;
+  font-size: 24px; /* Ukuran lebih kecil dari default h1 */
+  color: #2c3e50;
+  font-weight: bold;
 }
